@@ -1,3 +1,5 @@
 /node_modules
 .env
 package-lock.json
+public/img/.DS_Store
+.DS_Store
