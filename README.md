@@ -9,9 +9,9 @@
 
 ## Quick view
 
-![login page](https://raw.githubusercontent.com/YunYuLo/expense-tracker-sequelize/master/public/img/login.png)
-![register page](https://raw.githubusercontent.com/YunYuLo/expense-tracker-sequelize/master/public/img/register.png)
-![main page](https://raw.githubusercontent.com/YunYuLo/expense-tracker-sequelize/master/public/img/main.png)
+![login page](https://raw.githubusercontent.com/YunYuLo/expense-tracker-sequlize/master/public/img/login.png)
+![register page](https://raw.githubusercontent.com/YunYuLo/expense-tracker-sequlize/master/public/img/register.png)
+![main page](https://raw.githubusercontent.com/YunYuLo/expense-tracker-sequlize/master/public/img/main.png)
 
 
 
@@ -39,19 +39,19 @@
 1. Clone 此專案至電腦
 
 ```
-git clone https://github.com/YunYuLo/expense-tracker-sequelize.git
+git clone https://github.com/YunYuLo/expense-tracker-sequlize.git
 ```
 
 2. 開啟終端機(Terminal)，進入存放此專案的資料夾
 
 ```
-$ [~] cd expense-tracker-sequelize
+$ [~] cd expense-tracker-sequlize
 ```
 
 3. 安裝 npm 套件
 
 ```
-$ [~/expense-tracker-sequelize] npm install <套件名稱>
+$ [~/expense-tracker-sequlize] npm install <套件名稱>
 ```
 
 4. 設定config/config.json如下
@@ -74,16 +74,16 @@ create database expense_tracker_sequelize;
 use expense_tracker_sequelize;
 
 //Terminal
-[~/expense-tracker-sequelize] $ npx sequelize db:migrate
+[~/expense-tracker-sequlize] $ npx sequelize db:migrate
 ```
 
 6. 加入seeder
 ```
 //新增
-[~/expense-tracker-sequelize] $ npx sequelize-cli db:seed:all
+[~/expense-tracker-sequlize] $ npx sequelize-cli db:seed:all
 
 //刪除
-[~/expense-tracker-sequelize] $ npx sequelize-cli db:seed:undo:all
+[~/expense-tracker-sequlize] $ npx sequelize-cli db:seed:undo:all
 ```
 
 6. 導入.env至根目錄
@@ -96,7 +96,7 @@ FACEBOOK_CALLBACK=http://localhost:3000/auth/facebook/callback
 7. 啟動伺服器，執行 app.js 檔案
 
 ```
-$ [~/expense-tracker-sequelize] npm run dev
+$ [~/expense-tracker-sequlize] npm run dev
 ```
 
 現在，在瀏覽器輸入 [http://localhost:3000](http://localhost:3000) 你可透過預設使用者，開始使用囉！
