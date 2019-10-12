@@ -1,0 +1,176 @@
+/*********************main handlebars*********************/
+.sidenav {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:  #59a9b6;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*********************index handlebar*********************/
+
+.head{
+  margin: 30px auto;
+  margin-bottom: 10px;
+  text-align: center;
+  outline: 0;
+  border: 10px solid #F7F7F7;
+  width: 60%;
+  position: relative;
+  top: 10px;
+  z-index: 2;
+  border-radius: 5px;
+  font-size: 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+}
+
+.list{
+  margin: 15px auto;
+  padding: 0;
+  max-width: 50%;
+  position: relative;
+  text-align: center;
+}
+
+.list li{
+  background: white;
+  list-style: none;
+  border-bottom: 1px solid #D8D8D8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+  margin: 0;
+  padding: 20px;
+  transition: background 0.2s;
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+/*********************login handlebars*********************/
+.banner {
+  opacity: .5;
+}
+
+.login-container {
+  max-width: 720px;
+  margin: -270px auto 0 auto;
+  background: white;
+  border-radius: 20px;
+}
+
+.register-container {
+  max-width: 720px;
+  margin: -350px auto 0 auto;
+  background: white;
+  border-radius: 20px;
+}
+
+.col-left .form-control:focus {
+  box-shadow: inherit;
+  background-color: inherit;
+  border-color: #B0B0B0;
+}
+
+.col-left div.separate-line small {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  background: white;
+  top: 0;
+}
+
+.col-left .login-partners-icons a i {
+  color: #17a2b8;
+}
+
+.col-left .login-partners-icons a:hover i {
+  color: #117a8b;
+}
+
+div.col-right {
+  border-radius: 0 20px 20px 0;
+  background: url('https://picsum.photos/id/180/2400/1600');
+  background-position: center;
+  background-size: cover;
+}
+
+.col-right .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  opacity: .2;
+}
+
+.col-right h3,
+.col-right h4 {
+  text-shadow: 1px 1px 2px rgb(105,105,105);
+}
+
+.animation-info-btn {
+  width: 200px;
+  border: 2px solid #17a2b8;
+  background: linear-gradient(to right, white 50%, #17a2b8 50%);
+  
+}
+
+.animation-info-btn:hover {
+  color: #17a2b8;
+}
+
+.animation-danger-btn {
+  width: 100%;
+  border: 2px solid #dc3545;
+  background: linear-gradient(to right, white 50%, #dc3545 50%);
+
+}
+
+.animation-danger-btn:hover {
+  color: #dc3545;
+}
+
+.animation-btn {
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  background-size: 200% 100%;
+  background-position: right top;
+  padding: 5px 0;
+  text-decoration: none;
+  margin: 0 auto;
+  transition: all .3s ease-out;
+}
+
+.animation-btn:hover {
+  background-position: left bottom;
+  font-weight: bold;
+  text-decoration: none;
+}
